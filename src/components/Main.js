@@ -7,7 +7,6 @@ import SignUp from "./SignUp";
 function Main() {
   return (
     <Box>
-      <Route path="/" component={SignIn} />
       <Route path="/sign_in" component={SignIn} />
       <Route path="/sign_up" component={SignUp} />
     </Box>
